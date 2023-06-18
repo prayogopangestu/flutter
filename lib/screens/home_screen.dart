@@ -18,7 +18,13 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('SELAMAT DATANG'),
+            const Text(
+              'SELAMAT DATANG',
+              style: TextStyle(
+                  fontStyle: FontStyle.normal,
+                  color: Colors.white,
+                  fontSize: 20),
+            ),
             const SizedBox(
               height: 18,
             ),
