@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Container(
         width: double.infinity,
-        color: Color.fromARGB(255, 80, 85, 79),
+        color: const Color.fromARGB(255, 80, 85, 79),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_tugas1/prasentation/screen/home/view/home_source.dart';
+import 'package:flutter_tugas1/prasentation/screen/home/view/home_view.dart';
 import 'package:flutter_tugas1/screens/home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -20,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen>
     Future.delayed(const Duration(seconds: 5), () {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (context) => const HomeScreen(),
+          builder: (context) => homesource(),
         ),
       );
     });
